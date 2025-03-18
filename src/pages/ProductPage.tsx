@@ -15,6 +15,7 @@ const ProductPage: React.FC = () => {
     }).catch((error) => {
       console.error('Error fetching products:', error);
     });
+    
   }, []);
 
   const columns = [
